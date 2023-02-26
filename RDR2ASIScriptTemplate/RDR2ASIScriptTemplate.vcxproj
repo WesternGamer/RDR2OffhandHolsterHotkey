@@ -7,7 +7,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hooking_Patterns.cpp" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pools.cpp" />
@@ -16,7 +15,6 @@
     <ClInclude Include="enums.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="Hooking.h" />
-    <ClInclude Include="Hooking_Patterns.h" />
     <ClInclude Include="Keyboard.h" />
     <ClInclude Include="Pools.h" />
     <ClInclude Include="Scripthook.h" />
@@ -49,7 +47,7 @@
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>D:\Games\steamapps\common\Red Dead Redemption 2</OutDir>
+    <OutDir>..\..\..\Program Files %28x86%29\Steam\steamapps\common\Red Dead Redemption 2</OutDir>
     <IntDir>temp\$(Configuration)\</IntDir>
     <TargetExt>.asi</TargetExt>
     <ExtensionsToDeleteOnClean>
